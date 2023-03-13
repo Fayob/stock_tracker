@@ -69,6 +69,8 @@ end
 
 gem "devise"
 gem "devise-bootstrap-views"
+gem 'iex-ruby-client'
+gem 'alphavantage'
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
