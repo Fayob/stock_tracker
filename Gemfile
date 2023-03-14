@@ -67,10 +67,21 @@ group :development do
   # gem "spring"
 end
 
+# devise gem for authenticating users
 gem "devise"
+
+# This is used to generate bootstrap views
 gem "devise-bootstrap-views"
+
+# IEX cloud Stock data
 gem 'iex-ruby-client'
+
+# Alpha Vantage stock data
 gem 'alphavantage'
+
+# font awesome
+gem "font-awesome-rails"
+
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
