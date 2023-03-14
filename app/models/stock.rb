@@ -7,7 +7,12 @@ class Stock < ApplicationRecord
     #   endpoint: 'https://cloud.iexapis.com/v1'
     # )
     # client.price(ticker_symbol)
+    company = Alphavantage::Fundamental.new(symbol: ticker_symbol)
     client = Alphavantage::TimeSeries.new(symbol: ticker_symbol)
-    client.quote.price
+    begin
+      new( ticker: ticker_symbol, name: company.overview.name, last_price: client.quote.price )
+    rescue => exception
+      return nil
+    end
   end
 end
