@@ -1,0 +1,21 @@
+/*
+ *= require font-awesome
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(196, 232, 244);
+}
+
+.search-area {
+  padding-top: 50px;
+}
+
+.result-block {
+  display: inline-block;
+}
