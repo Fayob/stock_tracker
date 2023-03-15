@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
   resources :user_stocks, only: [:create, :destroy]
+  resources :friends, only: [:index, :destroy]
   devise_for :users
   root 'welcome#index'
   get 'my_portfolio', to: 'users#my_portfolio'
   get 'search_stock', to: 'stocks#search'
+  get 'search_friend', to: 'friends#search'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
