@@ -1,6 +1,8 @@
 class StocksController < ApplicationController
+
   def search
     if params[:stock].present?
+      @tracked_stocks = current_user.stocks
       @stock = Stock.new_lookup(params[:stock])
       if @stock.name && @stock.last_price
         render 'users/my_portfolio'
