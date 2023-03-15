@@ -9,8 +9,12 @@
 }
 
 body {
-  background: rgb(196, 232, 244);
+  background: rgb(233, 246, 250);
 }
+
+/* .nav_bar {
+  padding: 0 5rem;
+} */
 
 .search-area {
   padding-top: 50px;
@@ -18,4 +22,17 @@ body {
 
 .result-block {
   display: inline-block;
+}
+
+.logout_button {
+  margin-right: 5px;
+}
+
+.add_button {
+  display: inline;
+}
+
+.user_name {
+  margin-top: 3.5%;
+  padding-right: 5px;
 }
