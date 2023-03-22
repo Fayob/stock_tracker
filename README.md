@@ -85,11 +85,11 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this [repository](https://github.com/Fayob/Booking-App) to your desired folder:
+Clone this [repository](https://github.com/Fayob/stock_tracker) to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Fayob/Booking-App.git
+  git clone git@github.com:Fayob/stock_tracker.git
   cd Booking-App
 ```
 
@@ -111,24 +111,6 @@ To spin up the server, execute the following command in your terminal:
   rails server
 ```
 
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  rspec ./spec/controllers
-  rspec ./spec/routes
-  rspec ./spec/models
-```
-
-The frontend should be run on port [3000](http://localhost:3000) if it's run locally using the command below
-
-```sh
-  npm start
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Authors <a id="authors"></a>
 
@@ -137,19 +119,6 @@ The frontend should be run on port [3000](http://localhost:3000) if it's run loc
 - GitHub: [@fayob](https://github.com/fayob)
 - Twitter: [@fabimworld](https://twitter.com/Fabimworld2536)
 - LinkedIn: [abimbola-ade](http://linkedin.com/in/abimbola-ade/)
-
-👤 **Alphonce**
-
-- GitHub: [@tingamapuro04](https://github.com/tingamapuro04)
-- LinkedIn: [Alphonce](#)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a id="future-features"></a>
-
-- [ ] Add an authorization to all routes
-- [ ] Add an admin role to manage the creation and deletion of coaches
-- [ ] Add more features like notifying the coach after booking and be able to accept or reject the booking
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,12 +134,6 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a id="support"></a>
 
 If you like this project, please leave a star 😁
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a id="acknowledgements"></a>
-
-We would like to give credit to [Murat Korkmaz](https://www.behance.net/muratk) on Behance for the design used in the front end of this application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
