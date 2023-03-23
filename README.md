@@ -26,8 +26,7 @@
 
 # 📖 BOOKING_APP <a id="about-project"></a>
 
-**Finance Tracker App** is a web application where users can add stock value of companies to their portfolio and keep track them on a daily basis and they can as well search and add friends to their account. Users can check friend's profile and add stocks they don't have to their portfolio from their friend's profile page. Built with rails technology
-
+**Finance Tracker App** is a web application where users can add stock value of companies to their portfolio and keep track them on a daily basis and they can as well search and add friends to their account. Users can check friend's profile and add stocks they don't have to their portfolio from their friend's profile page. Built with rails technology.
 
 
 ## 🛠 Built With <a id="built-with"></a>
@@ -37,7 +36,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -55,6 +54,7 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+<br/>
 
 ### Key Features <a id="key-features"></a>
 
@@ -90,7 +90,7 @@ Clone this [repository](https://github.com/Fayob/stock_tracker) to your desired 
 ```sh
   cd my-folder
   git clone git@github.com:Fayob/stock_tracker.git
-  cd Booking-App
+  cd stock_tracker
 ```
 
 ### Install
@@ -110,6 +110,7 @@ To spin up the server, execute the following command in your terminal:
 ```sh
   rails server
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a id="authors"></a>
